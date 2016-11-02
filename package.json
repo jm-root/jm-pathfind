@@ -1,0 +1,39 @@
+{
+  "name": "jm-pathfind",
+  "version": "0.0.1",
+  "description": "general pathfind",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jm-root/jm-pathfind.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-pathfind"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jm-root/jm-pathfind/issues"
+  },
+  "homepage": "https://github.com/jm-root/jm-pathfind",
+  "dependencies": {
+    "jm-core": "*"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "gulp": ">=3.5.6",
+    "gulp-clean": ">=0.3.1",
+    "gulp-concat": ">=2.2.0",
+    "gulp-jshint": ">=1.5.1",
+    "gulp-rename": ">=1.2.0",
+    "gulp-sequence": ">=0.3.0",
+    "gulp-uglify": ">=0.3.1",
+    "gulp-util": ">=2.2.14"
+  }
+}
